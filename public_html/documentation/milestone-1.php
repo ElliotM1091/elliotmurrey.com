@@ -16,6 +16,7 @@
 						<li>Education: BA in business</li>
 						<li>Behaviors: has been around business for a while and doesn't like to play, feels as though time is money</li>
 						<li>Favorite quotes: "time is money." & insanity is doing the same thing over and over again expecting different results.</li>
+						<li>Frustration: not being able to find an amazing web developer at a good price</li>
 					</ul>
 				<p>Professional</p>
 					<ul>
@@ -34,8 +35,15 @@
 						<li>Goal: a skilled developer that wont break the bank</li>
 					</ul>
 			<h2>Use case</h2>
-				<ul>
-					<li>user opens brownswe</li>
-				</ul>
+				<ol>
+					<li>user opens browser</li>
+					<li>browser loads home page</li>
+					<li>user types in elliotmurrey.com</li>
+					<li>browser loads personal website</li>
+					<li>user browses website and likes what he sees and decides to contact developer and clicks on "contact me" link</li>
+					<li>browser loads "contact me request form"</li>
+					<li>user fills out "contact me request form" and taps submit</li>
+					<li>browser captures informaton input by user and sends request contact info.</li>
+				</ol>
 		</body>
 </html>
