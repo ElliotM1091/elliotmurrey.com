@@ -14,3 +14,15 @@ We will be discussing Milestone 2&alpha; in the weeks to come, so hold off on fu
 ### Edits &amp; Suggestions
 - Watch your indentation. Your HTML indentation appears to be off.
 - You're missing the &lt;meta charset="utf-8"&gt; tag in your HTML &lt;head&gt;
+
+## Milestone 2a Feedback
+Your Milestone 2a looks great. Your site map and content strategy are well-defined, and your interaction flow is detailed in a way which clearly highlights which features you want to focus upon. (portfolio and contact form).
+
+The wireframes are excellent. I am a little unclear as to how you intend to structure the navigation on the mobile view. We can discuss your nav ideas during development. Your design ideas are well thought out and clearly defined - these wireframes will function as a guide as you begin coding up your layouts. Nice work. 
+
++1 for using the PHP `require_once();` statement, and for grand SEO ambitions :-)
+
+Your Milestone 2&alpha; passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are now clear to begin development on your PWP.
+
+### Edits &amp; Suggestions
+- I advise caution regarding the nav structure shown the mobile view - this may present an increased challenge. Bootstrap will be covered later this week.
