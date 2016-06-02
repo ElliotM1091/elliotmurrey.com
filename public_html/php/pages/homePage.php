@@ -20,7 +20,7 @@
 
 		<!--customer CSS-->
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
-		
+
 		<!-- jQuery (needed for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
@@ -32,8 +32,64 @@
 
 			<!-- header-->
 			<header class="p-y-4">
-				
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a href="#" class="thumbnail">
+									<img src="..." alt="...">
+								</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="#">ELLIOT MURREY <span class="sr-only">(current)</span></a></li>
+
+								</ul>
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="#">About me</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">Contact me</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+				</div>
 			</header>
+
+			<!-- welcome!-->
+			<!-- welcome section -->
+			<section id="welcome" class="p-y-4">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="jumbotron">
+								<h1>Hello!</h1>
+								<p>My Name is Elliot Murrey. I am a junior web developer</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="jumbotron">
+								<h1>Programming skills!</h1>
+								<ul>
+									<li>PHP</li>
+									<li>mySQL</li>
+									<li>javaScript</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
 		</div>
 	</body>
 </html>
