@@ -4,7 +4,7 @@
  * while this is convenient, this may load too much if your composer configuration grows to many classes
  * if this is a concern, load "/vendor/swiftmailer/autoload.php" instead to load just SwiftMailer
  **/
-require_once(dirname(dirname(dirname(dirname(__DIR__)))) . "/vendor/autoload.php");
+require_once(dirname(dirname(__DIR__)) . "/vendor/autoload.php");
 
 /**
  * require mailer-config.php
@@ -40,7 +40,7 @@ try {
 	 * notice this an array that can include or omit the the recipient's real name
 	 * use the recipients' real name where possible; this reduces the probability of the Email being marked as spam
 	 **/
-	$recipients = ["deepdivecoder@cnm.edu" => "Deep Dive Coder"];
+	$recipients = ["emurrey@cnm.edu" => "emurrey"];
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message

@@ -32,9 +32,12 @@
 				  crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -134,86 +137,86 @@
 
 			<h3 class="about-me">Education</h3>
 			<h2 class="subH">Where I've learned everything that I know so far.</h2>
-				<div class="container">
-					<div class="row row-flex">
-						<div class="col-sm-6 col-md-4">
-							<div class="thumbnail">
-								<img src="./image/icon-ddcb-lg.png" alt="Deep Dive Logo" height="60" width="100">
-								<div class="caption">
-									<h3>CNM STEMulus Center Deep Dive Coders Bootcamp</h3>
-									<h3>Albuquerque, NM</h3>
-									<h4>Capstone Project:</h4>
-									<p>Project: Co-developer an Ecommerce website for buying and selling game cartridges
-										including PayPal integration.</p>
-									<h4>Coursework to include:</h4>
-									<ul>
-										<li>PHP 7</li>
-										<li>MySQL</li>
-										<li>JavaScript</li>
-										<li>Enterprise Application Development</li>
-										<li>Security</li>
-										<li>It Project Management</li>
-										<li>Web Design</li>
-										<li>Test Driven Development</li>
-										<li>Computer Architecture</li>
-										<li>Object Oriented Programming</li>
-										<li>Bootstrap 3</li>
-										<li>CSS 3</li>
-									</ul>
-									<p><a href="http://Romules.com" class="btn btn-primary" role="button">Capstone Project</a> <a
-											href="http://stemuluscenter.org/deep-dive-coding-application/"
-											class="btn btn-default" role="button">Apply For Deep Dive</a>
-									</p>
-								</div>
+			<div class="container">
+				<div class="row row-flex">
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="./image/icon-ddcb-lg.png" alt="Deep Dive Logo" height="60" width="100">
+							<div class="caption">
+								<h3>CNM STEMulus Center Deep Dive Coders Bootcamp</h3>
+								<h3>Albuquerque, NM</h3>
+								<h4>Capstone Project:</h4>
+								<p>Project: Co-developer an Ecommerce website for buying and selling game cartridges
+									including PayPal integration.</p>
+								<h4>Coursework to include:</h4>
+								<ul>
+									<li>PHP 7</li>
+									<li>MySQL</li>
+									<li>JavaScript</li>
+									<li>Enterprise Application Development</li>
+									<li>Security</li>
+									<li>It Project Management</li>
+									<li>Web Design</li>
+									<li>Test Driven Development</li>
+									<li>Computer Architecture</li>
+									<li>Object Oriented Programming</li>
+									<li>Bootstrap 3</li>
+									<li>CSS 3</li>
+								</ul>
+								<p><a href="http://Romules.com" class="btn btn-primary" role="button">Capstone Project</a> <a
+										href="http://stemuluscenter.org/deep-dive-coding-application/"
+										class="btn btn-default" role="button">Apply For Deep Dive</a>
+								</p>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4">
-							<div class="thumbnail">
-								<img src="./image/lynda.png" alt="Lynda Logo" height="60" width="100">
-								<div class="caption">
-									<h3>Lynda.com</h3>
-									<h4>Coursework to include:</h4>
-									<ul>
-										<li>PHP fundamentals</li>
-										<li>JavaScript fundamentals</li>
-										<li>MySQL Essential Training</li>
-										<li>Code clinic: Python</li>
-										<li>C++ Programming</li>
-										<li>Java Essential training</li>
-									</ul>
-									<p><a href="https://lynda.com" class="btn btn-primary" role="button">View Lynda.com</a> <a
-											href="http://www.lynda.com/promo/trial/default.aspx?lpk35=8006"
-											class="btn btn-default" role="button">Sign up for Lynda.com</a>
-									</p>
-								</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="./image/lynda.png" alt="Lynda Logo" height="60" width="100">
+							<div class="caption">
+								<h3>Lynda.com</h3>
+								<h4>Coursework to include:</h4>
+								<ul>
+									<li>PHP fundamentals</li>
+									<li>JavaScript fundamentals</li>
+									<li>MySQL Essential Training</li>
+									<li>Code clinic: Python</li>
+									<li>C++ Programming</li>
+									<li>Java Essential training</li>
+								</ul>
+								<p><a href="https://lynda.com" class="btn btn-primary" role="button">View Lynda.com</a> <a
+										href="http://www.lynda.com/promo/trial/default.aspx?lpk35=8006"
+										class="btn btn-default" role="button">Sign up for Lynda.com</a>
+								</p>
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-4">
-							<div class="thumbnail">
-								<img src="./image/sololearnLogo.png" alt="Deep Dive Logo" height="240" width="320">
-								<div class="caption">
-									<h3>Solo Learn</h3>
-									<h4>Coursework to include:</h4>
-									<ul>
-										<li>C++</li>
-										<li>Learn PHP</li>
-										<li>Learn JavaSript</li>
-										<li>Learn Css</li>
-										<li>Learn SQL</li>
-										<li>Learn HTML</li>
-										<li>Digital Marketing</li>
-										<li>Learn Python</li>
-									</ul>
-									<p><a href="https://play.google.com/store/apps/developer?id=SoloLearn"
-											class="btn btn-primary" role="button">Solo Learn on Android</a> <a
-											href="https://itunes.apple.com/us/developer/sololearn-inc/id933957049"
-											class="btn btn-default" role="button">Solo Learn on IOS</a>
-									</p>
-								</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="./image/sololearnLogo.png" alt="Deep Dive Logo" height="240" width="320">
+							<div class="caption">
+								<h3>Solo Learn</h3>
+								<h4>Coursework to include:</h4>
+								<ul>
+									<li>C++</li>
+									<li>Learn PHP</li>
+									<li>Learn JavaSript</li>
+									<li>Learn Css</li>
+									<li>Learn SQL</li>
+									<li>Learn HTML</li>
+									<li>Digital Marketing</li>
+									<li>Learn Python</li>
+								</ul>
+								<p><a href="https://play.google.com/store/apps/developer?id=SoloLearn"
+										class="btn btn-primary" role="button">Solo Learn on Android</a> <a
+										href="https://itunes.apple.com/us/developer/sololearn-inc/id933957049"
+										class="btn btn-default" role="button">Solo Learn on IOS</a>
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 			<a name="Experience"><h3 class="about-me">Experience</h3></a>
 			<p class="subH">I'm only getting started!</p>
 			<div class="container">
@@ -276,7 +279,9 @@
 						</div><!--/.col-->
 					</div><!--/.row-->
 
-					<p class="pull-right"><button><a href="#">Back to top</a></button></p>
+					<p class="pull-right">
+						<button><a href="#">Back to top</a></button>
+					</p>
 				</div><!-- /.container -->
 
 
@@ -287,49 +292,65 @@
 				<div class="row-padded">
 					<!-- Begin Columns Here -->
 					<div class="row row-flex">
-						<div class="col-sm-6 col-md-9" </div>
-
-					<form class="form-horizontal well" action="email.php">
-						<div class="form-group">
-							<label for="name">Name</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-user" aria-hidden="true"></i>
-								</div>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="email">Email address</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
-								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="subject">Subject</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
-								</div>
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="message">Message</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-comment" aria-hidden="true"></i>
-								</div>
-								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
-							</div>
-						</div>
-						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-					</form>
+						<div class="col-sm-6 col-md-9"
 					</div>
+
+					<!--Begin Contact Form-->
+					<div class="form-horizontal well" action="email.php">
+						<form id="contact-form" action="php/mailer.php" method="post">
+							<div class="form-group">
+								<label for="name">Name <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="email">Email <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</div>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="message">Message <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+									</div>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message (2000 characters max)"></textarea>
+								</div>
+							</div>
+
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6LcDKCITAAAAAKgl4_0e4mod1CjksGRgKFiOJn0z"></div>
+
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</form>
+
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
+						</div> <!-- end form -->
+					</div>
+				</div>
 				<div class="container">
 					<footer class="footer">
 						<div class="foot-content">
@@ -343,13 +364,14 @@
 										<div class="foot-links col-md-6"></div>
 										<div class="foot-links col-md-6">
 											<h4 class="wantmore">But wait there's more!</h4>
-											<a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"> | </i></a>
-											<a href=""> <i class="fa fa-facebook-square fa-3x" aria-hidden="true"> | </i></a>
-											<a href=""> <i class="fa fa-github-square fa-3x" aria-hidden="true"> | </i></a>
+											<a href="https://twitter.com/EnhancedElliot?lang=en"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"> | </i></a>
+											<a href="https://www.linkedin.com/in/elliot-murrey-a6b692121
+"> <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"> | </i></a>
+											<a href="https://github.com/ElliotM1091"> <i class="fa fa-github-square fa-3x" aria-hidden="true"> | </i></a>
 											<a href=""> <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"> </i></a>
 										</div>
 									</div>
-									<div class="col-xs-12 col-md-"12>
+									<div class="col-xs-12 col-md-" 12>
 										<h4 class="footer-elliot">www.elliotmurrey.com</h4>
 									</div>
 								</div><!--.row-->
