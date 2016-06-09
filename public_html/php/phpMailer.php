@@ -6,7 +6,21 @@
  **/
 require_once(dirname(dirname(dirname(dirname(__DIR__)))) . "/vendor/autoload.php");
 
+/**
+ * require mailer-config.php
+ **/
+require_once("mail-config.php");
+
+// verify user's reCAPTCHA input
+$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+$resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
+
 try {
+
+	// if reCAPTCHA error, output the error code to the user
+	if (!$resp->isSuccess()) {
+		throw(new Exception("reCAPTCHA error!"));
+	}
 	// sanitize the inputs from the form: name, email, subject, and message
 	// this assumes jQuery (not Angular will be submitting the form, so we're using the $_POST superglobal
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
