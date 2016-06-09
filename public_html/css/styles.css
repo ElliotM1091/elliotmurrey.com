@@ -139,3 +139,52 @@ a {
 .panel-title {
 	font-size: 25px;
 }
+
+
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+	clear: left;
+}
+
+.footer {
+	background-color: black;
+}
+
+.footer-elliot {
+	text-align: center;
+	color: white;
+}
+
+i {
+	color: dodgerblue;
+}
+
+.pull-right {
+	color: blue;
+
+}
+
+.wantmore {
+	color: white;
+	letter-spacing: 1.5px ;
+}
+
+.form-horizontal {
+	clear: right;
+}

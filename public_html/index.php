@@ -150,7 +150,7 @@
 										<li>CSS 3</li>
 									</ul>
 									<p><a href="http://Romules.com" class="btn btn-primary" role="button">Capstone Project</a> <a
-											href="http://stemuluscenter.org/deep-dive-coding-bootcamp-application/"
+											href="http://stemuluscenter.org/deep-dive-coding-application/"
 											class="btn btn-default" role="button">Apply For Deep Dive</a>
 									</p>
 								</div>
@@ -265,7 +265,7 @@
 						</div><!--/.col-->
 					</div><!--/.row-->
 
-					<p class="pull-right"><a href="#">Back to top</a></p>
+					<p class="pull-right"><button><a href="#">Back to top</a></button></p>
 				</div><!-- /.container -->
 
 
@@ -319,6 +319,31 @@
 						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 					</form>
 					</div>
+				<div class="container">
+					<footer class="footer">
+						<div class="foot-content">
+							<div class="container">
+								<!--footer links/content-->
+								<div class="row">
+									<div class="col-md-6 visible-md-block visible-lg-block footer-brand">
+
+									</div>
+									<div class="col-xs-12 col-md-6">
+										<div class="foot-links col-md-6"></div>
+										<div class="foot-links col-md-6">
+											<h4 class="wantmore">But wait there's more!</h4>
+											<a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"> | </i></a>
+											<a href=""> <i class="fa fa-facebook-square fa-3x" aria-hidden="true"> | </i></a>
+											<a href=""> <i class="fa fa-github-square fa-3x" aria-hidden="true"> | </i></a>
+											<a href=""> <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"> </i></a>
+										</div>
+									</div>
+									<div class="col-xs-12 col-md-"12>
+										<h4 class="footer-elliot">www.elliotmurrey.com</h4>
+									</div>
+								</div><!--.row-->
+							</div>
+						</div>
 				</div>
 			</div>
 		</div>
