@@ -24,12 +24,15 @@
 		<link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon"/>
 
 		<!-- jQuery (needed for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
 				  crossorigin="anonymous"></script>
+
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+<!--		<script src='https://www.google.com/recaptcha/api/verify'></script>-->
 
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript"
@@ -39,11 +42,12 @@
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
+
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
 		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 	</head>
 	<body class="sfooter">
 		<div class="sfooter">
@@ -51,7 +55,6 @@
 			<!-- header-->
 			<header class="p-y-4">
 				<div class="container">
-
 					<div class="row">
 						<div class="col-md-3">
 							<a href="#" class="thumbnail">
@@ -296,7 +299,7 @@
 					</div>
 
 					<!--Begin Contact Form-->
-					<div class="form-horizontal well" action="email.php">
+					<div class="form-horizontal well"">
 						<form id="contact-form" action="php/mailer.php" method="post">
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
