@@ -7,7 +7,8 @@
 		<!--this helps out IE-->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<!--going to be used for view port -->
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="author" content="Programmer Elliot Murrey"/>
+		<meta name="keywords" content="HTML,CSS,Programmer,Design,FrontEnd,ElliotMurrey,Elliot,Murrey">
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -361,7 +362,6 @@
 								<!--footer links/content-->
 								<div class="row">
 									<div class="col-md-6 visible-md-block visible-lg-block footer-brand">
-
 									</div>
 									<div class="col-xs-12 col-md-6">
 										<div class="foot-links col-md-6"></div>
